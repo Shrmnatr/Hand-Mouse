@@ -1,0 +1,147 @@
+==========================================================
+  HAND MOUSE - GESTURE CHEAT SHEET
+==========================================================
+
+ONE HAND - MOUSE
+----------------------------------------------------------
+  Open hand, move ............ Move pointer
+  Thumb + index, tap ......... Click (tap twice = double)
+  Thumb + index, hold ........ Drag (open fingers to drop)
+  Thumb + middle, tap ........ Right-click
+  Thumb + ring, tap / hold ... Middle click / middle drag
+    (keep index + middle fingers up)
+  Index + middle up together . Scroll (move hand up/down)
+  Fist ....................... Pause
+
+
+ONE HAND - COMMANDS  (hold until the green bar fills)
+----------------------------------------------------------
+  Thumbs up .................. Volume up
+  Thumbs down ................ Volume down
+  Rock sign (index + pinky) .. Mute / unmute
+  Shaka (thumb + pinky out) .. Start menu
+  Three fingers up ........... Play / pause
+
+
+TWO HANDS
+----------------------------------------------------------
+  Right hand = MOUSE. Left hand = COMMANDS.
+  (Press H to swap.)
+
+  The mouse hand does all the mouse gestures above.
+  The command hand does all the commands above, plus:
+
+  Steady click (aim with mouse hand, click with the other):
+    Thumb + index, tap ....... Click
+    Thumb + index, hold ...... Hold button (drag with
+                               mouse hand)
+    Thumb + middle, tap ...... Right-click
+
+  Both hands together:
+    Pinch, move apart ........ Zoom in
+    Pinch, move together ..... Zoom out
+                               (pinch command hand first)
+    Fists, hold 1 sec ........ Hand Mouse off / on
+    "L" shapes, hold ......... Screenshot
+    Index fingers up, hold ... See all windows
+    Peace signs, hold ........ Show desktop
+                               (fingers spread apart)
+    Open hands, swipe left ... Next browser tab
+    Open hands, swipe right .. Previous browser tab
+
+
+PRESENTING (PowerPoint / Google Slides)
+----------------------------------------------------------
+  Turns on by itself during a slide show.
+  Or press Ctrl+Alt+P in any app (e.g. Teams).
+
+  Open hand, swipe left ...... Next slide
+  Open hand, swipe right ..... Previous slide
+  Thumbs up / down, hold ..... Next / previous slide
+  Point index finger ......... Laser pointer
+  Point, then pinch .......... Draw on the slide
+  Rock sign, hold ............ Clear drawings
+  Three fingers, hold ........ Black screen on/off
+  Both peace signs, hold ..... Start / end slide show
+  Both fists, hold ........... Hand Mouse off / on
+
+  Far away (conference room)? Use
+  "Hand Mouse Far Mode.bat".
+
+
+APP SHORTCUTS
+----------------------------------------------------------
+  Teams / Zoom (window in front):
+    Rock sign .......... Mic mute
+    Shaka .............. Camera on/off
+    Three fingers ...... Raise hand
+  YouTube:   three fingers = play/pause,
+             swipes = skip 10 seconds
+  Spotify:   swipes = next / previous song
+
+
+SOLIDWORKS (window in front)
+----------------------------------------------------------
+  Thumb + ring finger, hold & move ... Rotate model
+    (keep index + middle fingers up)
+  Command-hand fist + ring pinch ..... Pan
+  Two fingers up, move up/down ....... Zoom
+  Thumb + index tap .................. Select
+  Command-hand fist + index tap ...... Add to selection
+  Thumb + middle tap ................. Right-click menu
+  Thumbs down ........................ Clear selection
+  Rock sign .......................... View selector
+  Three fingers ...................... Isometric
+  Shaka .............................. Normal To
+  Thumbs up .......................... Zoom to fit
+  Both index fingers up .............. Front view
+  Both L-shapes ...................... Top view
+  Both peace signs ................... Hide component
+  Both open hands swipe .............. Turn 90 degrees
+
+
+HOTKEYS (work in any app)
+----------------------------------------------------------
+  Ctrl+Alt+P ..... Presentation mode on/off
+  Ctrl+Alt+H ..... Hand Mouse on/off
+  Ctrl+Alt+C ..... Clear drawings
+
+
+KEYS  (click the camera window first)
+----------------------------------------------------------
+  Q or Esc ....... Quit
+  Space .......... Off / on
+  G .............. Commands off / on
+  H .............. Swap mouse hand
+  P .............. Presentation mode on/off
+  0 .............. Control all screens
+  1, 2, 3 ........ Control one screen (from the left)
+
+
+TIPS
+----------------------------------------------------------
+  - Good light, plain background
+  - Move slowly and smoothly
+  - Make a fist when you're not using it
+  - Several screens? Press 1, 2 or 3 for better precision
+  - Touching your real mouse pauses Hand Mouse briefly
+
+
+OPTIONAL SETTINGS
+----------------------------------------------------------
+  Make a desktop shortcut to HandMouse.exe, right-click
+  it > Properties, and add settings to the end of
+  "Target". Example:
+     "C:\...\HandMouse.exe" --mouse-hand left
+
+  --far .................. Conference-room mode
+  --mouse-hand left ...... Left hand moves the mouse
+  --camera 1 ............. Use a different webcam
+  --monitor 2 ............ Start on screen 2
+  --min-cutoff 0.5 ....... Smoother pointer
+  --pinch-on 0.18 ........ Fewer accidental clicks
+  --no-steady-click ...... Turn off command-hand clicking
+  --no-commands .......... Start with commands off
+
+  More settings (swipe distance, laser color, app
+  gestures) are in hand_mouse_settings.json.

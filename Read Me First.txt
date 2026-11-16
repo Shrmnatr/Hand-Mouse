@@ -1,0 +1,167 @@
+==========================================================
+  HAND MOUSE
+  Control your computer with your hands
+==========================================================
+
+Hand Mouse uses your webcam to follow your hands. Move the
+mouse, click, scroll, zoom, present slides with a laser
+pointer, control Teams, and more. Works with one screen or
+several.
+
+  - Nothing to install
+  - Works offline
+  - Private: your camera video is never saved or sent
+    anywhere
+
+You need: Windows 10 or 11, and a webcam.
+
+
+==========================================================
+  GET STARTED
+==========================================================
+
+1. UNZIP
+   Right-click HandMouse.zip > "Extract All" > "Extract".
+   (It won't work from inside the zip.)
+
+2. ALLOW THE CAMERA
+   Settings (Windows key + I) > Privacy & security > Camera
+   Turn ON "Camera access" and
+   "Let desktop apps access your camera".
+   Close other camera apps (Zoom, Teams video, etc.).
+
+3. START IT
+   Double-click HandMouse.exe
+   - "Windows protected your PC"? Click "More info" >
+     "Run anyway".
+   - WAIT up to 30 seconds. Don't click it again.
+   - A small camera window opens. You're ready!
+
+   Keep the black window open. Closing it stops Hand Mouse.
+
+
+==========================================================
+  TRY IT
+==========================================================
+
+Sit an arm's length from the camera with light on your
+hands. Keep your hand inside the PURPLE BOX.
+
+With ONE hand:
+  1. MOVE ......... Open hand, move slowly
+  2. CLICK ........ Tap thumb + index finger together
+  3. SCROLL ....... Index + middle finger up together,
+                    move hand up or down
+  4. PAUSE ........ Make a fist
+  5. VOLUME ....... Thumbs up and hold
+
+With TWO hands (sit back a little so both fit):
+  Your right hand moves the mouse. Your left hand does
+  commands and clicks.
+
+  6. STEADY CLICK . Aim with your right hand, tap thumb +
+                    index on your LEFT hand
+  7. ZOOM ......... Pinch both hands (left first), then
+                    move them apart or together
+  8. ON / OFF ..... Make two fists and hold for 1 second
+
+Left-handed? Click the camera window and press H.
+
+
+==========================================================
+  PRESENTING SLIDES
+==========================================================
+
+Start a PowerPoint slide show or present in Google Slides
+(full screen). Hand Mouse switches to presentation mode by
+itself. The camera window turns orange: PRESENTING.
+
+  Swipe open hand left ...... Next slide
+  Swipe open hand right ..... Previous slide
+  Thumbs up / down (hold) ... Next / previous slide
+  Point index finger ........ Laser pointer
+  Point, then pinch ......... Draw on the slide
+
+In a Teams meeting or anywhere else: press Ctrl+Alt+P to
+turn presentation mode on or off.
+
+Presenting across a conference room? Start with
+"Hand Mouse Far Mode.bat" instead of HandMouse.exe.
+Good lighting on your hands matters most.
+
+
+==========================================================
+  APPS WITH SPECIAL GESTURES
+==========================================================
+
+Gestures change automatically for: PowerPoint, Google
+Slides, Teams, Zoom, YouTube, Spotify and SolidWorks.
+The camera window shows which app is active ("App: ...").
+
+See "Gesture Cheat Sheet.txt" for every gesture.
+
+
+==========================================================
+  HOW TO STOP
+==========================================================
+
+  - Click the camera window, then press Q
+  - Or close the black window
+  - Ctrl+Alt+H pauses Hand Mouse from any app
+  - Emergency stop: move your real mouse into a corner
+    of the screen
+
+
+==========================================================
+  PROBLEMS?
+==========================================================
+
+Nothing happens .......... Wait 30 seconds. Check your
+                           antivirus didn't block it.
+Camera black / won't open  Close other camera apps.
+                           Check step 2.
+"no hand" ................ More light. Palm to camera.
+Shaky pointer ............ More light. Move slower.
+"REAL MOUSE - paused" .... Take your hand off your mouse.
+Keys don't work .......... Click the camera window first.
+Only one hand detected ... Sit farther back, keep hands
+                           apart.
+Swipes don't change slides Watch the green bar while you
+                           swipe; move sideways about
+                           6 inches. Or use thumbs up/down.
+Only one screen used ..... Settings > System > Display >
+                           "Extend these displays".
+VCRUNTIME140.dll message . Install "Microsoft Visual C++
+                           Redistributable" (x64) from
+                           Microsoft.
+Anything else ............ Send a screenshot of the black
+                           window to whoever shared this.
+
+
+==========================================================
+  CHANGING GESTURES (optional)
+==========================================================
+
+Gestures and app settings are in hand_mouse_settings.json.
+Open it with Notepad, edit, save, and restart Hand Mouse.
+If you break it, delete the file and a fresh one is made.
+
+
+==========================================================
+  FEEDBACK
+==========================================================
+
+Thanks for testing! Please let us know:
+  1. Did it start OK?
+  2. How many screens do you have?
+  3. Which gestures worked well, and which were hard?
+  4. Did you try presenting? How far from the camera?
+  5. Anything confusing?
+  6. A screenshot of any error.
+
+
+==========================================================
+  REMOVING IT
+==========================================================
+
+Delete the HandMouse folder. Nothing else was installed.

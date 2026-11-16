@@ -1,0 +1,365 @@
+{
+  "_help": [
+    "Hand Mouse settings. Save this file and restart Hand Mouse after editing.",
+    "An action can use: label (text shown), keys (pressed together),",
+    "type (text to type), open (program, folder or website),",
+    "repeat (true = repeats while held), do (clear_ink, toggle_presentation,",
+    "toggle_enabled). Set a gesture to null to turn it off.",
+    "Gesture names: THUMBS_UP, THUMBS_DOWN, ROCK, SHAKA, THREE,",
+    "BOTH_L, BOTH_POINT, BOTH_PEACE, SWIPE_LEFT, SWIPE_RIGHT.",
+    "Profiles are checked top to bottom; the first match wins. A profile",
+    "matches by program (e.g. powerpnt.exe) and/or title_contains.",
+    "Delete this file to get the default settings back."
+  ],
+  "mouse_hand": "right",
+  "far_mode": false,
+  "far_zoom": 2.5,
+  "laser_gain": 0.18,
+  "laser_color": "#ff2020",
+  "pen_color": "#ffd000",
+  "show_toasts": true,
+  "global": {
+    "THUMBS_UP": {
+      "label": "Volume up",
+      "keys": [
+        "volumeup"
+      ],
+      "repeat": true
+    },
+    "THUMBS_DOWN": {
+      "label": "Volume down",
+      "keys": [
+        "volumedown"
+      ],
+      "repeat": true
+    },
+    "ROCK": {
+      "label": "Mute",
+      "keys": [
+        "volumemute"
+      ]
+    },
+    "SHAKA": {
+      "label": "Start menu",
+      "keys": [
+        "win"
+      ]
+    },
+    "THREE": {
+      "label": "Play/Pause",
+      "keys": [
+        "playpause"
+      ]
+    },
+    "BOTH_L": {
+      "label": "Screenshot",
+      "keys": [
+        "win",
+        "shift",
+        "s"
+      ]
+    },
+    "BOTH_POINT": {
+      "label": "Task view",
+      "keys": [
+        "win",
+        "tab"
+      ]
+    },
+    "BOTH_PEACE": {
+      "label": "Show desktop",
+      "keys": [
+        "win",
+        "d"
+      ]
+    },
+    "SWIPE_LEFT": {
+      "label": "Next tab",
+      "keys": [
+        "ctrl",
+        "tab"
+      ]
+    },
+    "SWIPE_RIGHT": {
+      "label": "Previous tab",
+      "keys": [
+        "ctrl",
+        "shift",
+        "tab"
+      ]
+    }
+  },
+  "presentation": {
+    "SWIPE_LEFT": {
+      "label": "Next slide",
+      "keys": [
+        "right"
+      ],
+      "do": "clear_ink"
+    },
+    "SWIPE_RIGHT": {
+      "label": "Previous slide",
+      "keys": [
+        "left"
+      ],
+      "do": "clear_ink"
+    },
+    "THUMBS_UP": {
+      "label": "Next slide",
+      "keys": [
+        "right"
+      ],
+      "do": "clear_ink"
+    },
+    "THUMBS_DOWN": {
+      "label": "Previous slide",
+      "keys": [
+        "left"
+      ],
+      "do": "clear_ink"
+    },
+    "THREE": {
+      "label": "Black screen",
+      "keys": [
+        "b"
+      ]
+    },
+    "ROCK": {
+      "label": "Clear drawings",
+      "do": "clear_ink"
+    },
+    "BOTH_PEACE": {
+      "label": "End slide show",
+      "keys": [
+        "esc"
+      ]
+    }
+  },
+  "profiles": [
+    {
+      "name": "PowerPoint",
+      "program": "powerpnt.exe",
+      "gestures": {
+        "BOTH_PEACE": {
+          "label": "Start slide show",
+          "keys": [
+            "f5"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Google Slides",
+      "title_contains": "google slides",
+      "gestures": {
+        "BOTH_PEACE": {
+          "label": "Start presenting",
+          "keys": [
+            "ctrl",
+            "f5"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Teams",
+      "program": [
+        "ms-teams.exe",
+        "teams.exe"
+      ],
+      "gestures": {
+        "ROCK": {
+          "label": "Mic mute",
+          "keys": [
+            "ctrl",
+            "shift",
+            "m"
+          ]
+        },
+        "SHAKA": {
+          "label": "Camera",
+          "keys": [
+            "ctrl",
+            "shift",
+            "o"
+          ]
+        },
+        "THREE": {
+          "label": "Raise hand",
+          "keys": [
+            "ctrl",
+            "shift",
+            "k"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Zoom",
+      "program": "zoom.exe",
+      "gestures": {
+        "ROCK": {
+          "label": "Mic mute",
+          "keys": [
+            "alt",
+            "a"
+          ]
+        },
+        "SHAKA": {
+          "label": "Camera",
+          "keys": [
+            "alt",
+            "v"
+          ]
+        },
+        "THREE": {
+          "label": "Raise hand",
+          "keys": [
+            "alt",
+            "y"
+          ]
+        }
+      }
+    },
+    {
+      "name": "YouTube",
+      "title_contains": "youtube",
+      "gestures": {
+        "THREE": {
+          "label": "Play/Pause",
+          "keys": [
+            "k"
+          ]
+        },
+        "SWIPE_LEFT": {
+          "label": "Forward 10s",
+          "keys": [
+            "l"
+          ]
+        },
+        "SWIPE_RIGHT": {
+          "label": "Back 10s",
+          "keys": [
+            "j"
+          ]
+        },
+        "BOTH_PEACE": {
+          "label": "Full screen",
+          "keys": [
+            "f"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Spotify",
+      "program": "spotify.exe",
+      "gestures": {
+        "SWIPE_LEFT": {
+          "label": "Next song",
+          "keys": [
+            "nexttrack"
+          ]
+        },
+        "SWIPE_RIGHT": {
+          "label": "Previous song",
+          "keys": [
+            "prevtrack"
+          ]
+        }
+      }
+    },
+    {
+      "name": "SolidWorks",
+      "program": "sldworks.exe",
+      "command_fist_modifier": [
+        "ctrl"
+      ],
+      "zoom_modifier": [],
+      "zoom_reverse": false,
+      "labels": {
+        "middle": "ROTATE",
+        "middle_mod": "PAN",
+        "left": "SELECT / DRAG",
+        "left_mod": "ADD TO SELECTION"
+      },
+      "gestures": {
+        "THUMBS_UP": {
+          "label": "Zoom to fit",
+          "keys": [
+            "f"
+          ]
+        },
+        "THUMBS_DOWN": {
+          "label": "Clear selection",
+          "keys": [
+            "esc"
+          ]
+        },
+        "ROCK": {
+          "label": "View selector",
+          "keys": [
+            "space"
+          ]
+        },
+        "SHAKA": {
+          "label": "Normal to",
+          "keys": [
+            "ctrl",
+            "8"
+          ]
+        },
+        "THREE": {
+          "label": "Isometric",
+          "keys": [
+            "ctrl",
+            "7"
+          ]
+        },
+        "BOTH_POINT": {
+          "label": "Front view",
+          "keys": [
+            "ctrl",
+            "1"
+          ]
+        },
+        "BOTH_L": {
+          "label": "Top view",
+          "keys": [
+            "ctrl",
+            "5"
+          ]
+        },
+        "BOTH_PEACE": {
+          "label": "Hide component",
+          "keys": [
+            "tab"
+          ]
+        },
+        "SWIPE_LEFT": {
+          "label": "Turn 90 left",
+          "keys": [
+            "shift",
+            "left"
+          ]
+        },
+        "SWIPE_RIGHT": {
+          "label": "Turn 90 right",
+          "keys": [
+            "shift",
+            "right"
+          ]
+        }
+      }
+    }
+  ],
+  "_known_profiles": [
+    "Google Slides",
+    "PowerPoint",
+    "SolidWorks",
+    "Spotify",
+    "Teams",
+    "YouTube",
+    "Zoom"
+  ]
+}
